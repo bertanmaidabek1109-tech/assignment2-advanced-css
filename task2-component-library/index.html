@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task 2 — Component library (Flexbox)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 1. NAVBAR -->
+  <section class="showcase">
+    <h2 class="showcase__title">1. Navigation bar</h2>
+    <nav class="navbar">
+      <div class="navbar__logo">Brandly</div>
+      <div class="navbar__links">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Solutions for Enterprise</a>
+        <a href="#">Pricing</a>
+        <a href="#">Documentation</a>
+        <a href="#">About us</a>
+      </div>
+      <div class="navbar__buttons">
+        <button class="btn btn--ghost">Log in</button>
+        <button class="btn btn--primary">Sign up</button>
+      </div>
+    </nav>
+  </section>
+
+  <!-- 2. CARD ROW -->
+  <section class="showcase">
+    <h2 class="showcase__title">2. Card row</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Starter</h3>
+        <p>Short description.</p>
+        <button class="btn btn--primary">Choose</button>
+      </article>
+      <article class="card">
+        <h3>Team</h3>
+        <p>A noticeably longer description that talks about collaboration, shared workspaces, permissions and everything a growing team needs from day one.</p>
+        <button class="btn btn--primary">Choose</button>
+      </article>
+      <article class="card">
+        <h3>Business</h3>
+        <p>Medium length description covering the essentials for a small business.</p>
+        <button class="btn btn--primary">Choose</button>
+      </article>
+      <article class="card">
+        <h3>Enterprise</h3>
+        <p>The longest description of them all: dedicated support, custom contracts, on-premise deployment options, SSO, audit logs, and a named account manager who actually answers the phone.</p>
+        <button class="btn btn--primary">Choose</button>
+      </article>
+    </div>
+  </section>
+
+  <!-- 3. PAGINATION -->
+  <section class="showcase">
+    <h2 class="showcase__title">3. Pagination bar</h2>
+    <div class="pagination">
+      <div class="pagination__group">
+        <button class="page-arrow">&lsaquo;</button>
+        <div class="pagination__numbers">
+          <button class="page-num is-active">1</button>
+          <button class="page-num">2</button>
+          <button class="page-num">3</button>
+          <button class="page-num">4</button>
+          <button class="page-num">5</button>
+        </div>
+        <button class="page-arrow">&rsaquo;</button>
+      </div>
+      <span class="pagination__count">128 results</span>
+    </div>
+  </section>
+
+  <!-- 4. COMMENT BLOCK -->
+  <section class="showcase">
+    <h2 class="showcase__title">4. Comment block</h2>
+    <div class="comment">
+      <img class="comment__avatar" src="https://i.pravatar.cc/96?img=12" alt="avatar">
+      <div class="comment__body">
+        <p class="comment__author">Aidana K.</p>
+        <p class="comment__text">This is a much longer comment than the others, on purpose — it needs to wrap onto several lines beside the avatar and never slide underneath it, no matter how much text is typed here or how narrow the browser window becomes.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. PRICING TABLE -->
+  <section class="showcase">
+    <h2 class="showcase__title">5. Pricing table</h2>
+    <div class="pricing">
+      <article class="plan">
+        <h3>Basic</h3>
+        <p class="plan__price">$9<span>/mo</span></p>
+        <ul>
+          <li>1 user</li>
+          <li>5 GB storage</li>
+          <li>Email support</li>
+        </ul>
+        <button class="btn btn--ghost">Select</button>
+      </article>
+      <article class="plan plan--recommended">
+        <p class="plan__badge">Most popular</p>
+        <h3>Pro</h3>
+        <p class="plan__price">$29<span>/mo</span></p>
+        <ul>
+          <li>10 users</li>
+          <li>100 GB storage</li>
+          <li>Priority support</li>
+          <li>Advanced analytics</li>
+        </ul>
+        <button class="btn btn--primary">Select</button>
+      </article>
+      <article class="plan">
+        <h3>Business</h3>
+        <p class="plan__price">$79<span>/mo</span></p>
+        <ul>
+          <li>Unlimited users</li>
+          <li>1 TB storage</li>
+          <li>Dedicated manager</li>
+        </ul>
+        <button class="btn btn--ghost">Select</button>
+      </article>
+    </div>
+  </section>
+
+</body>
+</html>

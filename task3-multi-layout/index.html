@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Task 3 — Three layouts, one markup</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1 class="page-title">Task 3. Three layouts, one markup</h1>
+
+  <!-- Pure-CSS mode switch: no JavaScript.
+       Checking a radio button changes which set of Grid/Flexbox
+       rules applies to the SAME .gallery markup below, via
+       the ~ sibling selector and :checked in style.css.
+       (For the written report: this has the exact same effect as
+       hand-editing the container's class between
+       "view-grid" / "view-list" / "view-magazine".) -->
+  <input type="radio" name="mode" id="mode-grid" class="mode-input" checked>
+  <input type="radio" name="mode" id="mode-list" class="mode-input">
+  <input type="radio" name="mode" id="mode-magazine" class="mode-input">
+
+  <div class="switcher">
+    <label for="mode-grid">Grid view</label>
+    <label for="mode-list">List view</label>
+    <label for="mode-magazine">Magazine view</label>
+  </div>
+
+  <!-- ONE markup, used by all three modes -->
+  <div class="gallery">
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/2/400/300" alt="">
+      <div class="content">
+        <h3>The Quiet Rise of Solar Farms</h3>
+        <p>How small municipal projects quietly outgrew the pilot stage and became the backbone of regional power grids, one field at a time, without anyone really announcing it.</p>
+      </div>
+      <span class="date">Sep 4</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/1/400/300" alt="">
+      <div class="content">
+        <h3>Nomadic Rugs Revival</h3>
+        <p>A short note on a craft coming back into fashion.</p>
+      </div>
+      <span class="date">Sep 2</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/3/400/300" alt="">
+      <div class="content">
+        <h3>A Chef Returns Home</h3>
+        <p>Ten years abroad, one small dining room, and a menu built entirely around what the market has that morning.</p>
+      </div>
+      <span class="date">Sep 5</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/4/400/300" alt="">
+      <div class="content">
+        <h3>Mapping the Silk Road Anew</h3>
+        <p>Cartographers.</p>
+      </div>
+      <span class="date">Sep 6</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/5/400/300" alt="">
+      <div class="content">
+        <h3>Why Cities Are Going Vertical</h3>
+        <p>Land is finite and population is not, so architects keep finding new reasons to build up rather than out — and the reasons are more interesting than you'd expect.</p>
+      </div>
+      <span class="date">Sep 8</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/6/400/300" alt="">
+      <div class="content">
+        <h3>The Last Analog Studio</h3>
+        <p>Tape, not files.</p>
+      </div>
+      <span class="date">Sep 9</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/7/400/300" alt="">
+      <div class="content">
+        <h3>Glacier Watch 2026</h3>
+        <p>Field notes from a season spent measuring what's left.</p>
+      </div>
+      <span class="date">Sep 11</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/8/400/300" alt="">
+      <div class="content">
+        <h3>Small Batch, Big Impact</h3>
+        <p>Inside the workshop economics of makers who deliberately chose to stay small, and why that choice is starting to look less like a limitation and more like a strategy.</p>
+      </div>
+      <span class="date">Sep 12</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/9/400/300" alt="">
+      <div class="content">
+        <h3>Streets Without Cars</h3>
+        <p>One neighborhood's experiment, six months later.</p>
+      </div>
+      <span class="date">Sep 14</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/10/400/300" alt="">
+      <div class="content">
+        <h3>The Language of Bees</h3>
+        <p>Decoding the waggle dance.</p>
+      </div>
+      <span class="date">Sep 15</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/11/400/300" alt="">
+      <div class="content">
+        <h3>Rebuilding the Grid</h3>
+        <p>After the storm, engineers had a choice: restore what was there, or use the outage as cover to finally modernize a system nobody wanted to touch while it was running.</p>
+      </div>
+      <span class="date">Sep 18</span>
+    </article>
+
+    <article class="item">
+      <img src="https://picsum.photos/seed/12/400/300" alt="">
+      <div class="content">
+        <h3>Notes from a Slow Kitchen</h3>
+        <p>Recipes that take three days and are worth every hour.</p>
+      </div>
+      <span class="date">Sep 20</span>
+    </article>
+
+  </div>
+</body>
+</html>
