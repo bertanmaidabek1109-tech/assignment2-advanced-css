@@ -33,4 +33,4 @@ is CSS Grid at the container level; Flexbox is used inside every `.item` to arra
 date (column direction in grid/magazine mode, row direction in list mode).
 
 ## Author
-`<Your Name>`, group `<Your Group>`
+`<Maidabek Bertan>`, group `<IT-2505>`
